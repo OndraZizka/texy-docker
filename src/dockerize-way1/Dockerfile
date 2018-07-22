@@ -12,6 +12,6 @@ EXPOSE 443
 CMD ["/usr/sbin/apache2ctl", "-D", "FOREGROUND"]
 
 ##  Usage:
-##    docker build --tag texy-service:nimmis-apache --file texy-docker/docker/src/dockerize-way1/Dockerfile .
+##    docker build --tag texy-service:nimmis-apache --file src/dockerize-way1/Dockerfile .
 ##    docker run -it -p 8022:80 texy-service:apache
-##    firefox http://localhost:8022/TexyService.soap.php
+##    firefox http://localhost:8022/TexyService.rest.php

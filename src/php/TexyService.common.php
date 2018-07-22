@@ -10,8 +10,8 @@ require_once("texy.min.php");  // knihovna Texy!
  */
 function PrevedDoXhtml($text) {
     $texy = new Texy();
-    $texy->utf = true;
-    $texy->trustMode();
+    //$texy->utf = true;
+    //$texy->trustMode();
     $texy->headingModule->top = 3;
     $html = $texy->process($text);
     return $html;
