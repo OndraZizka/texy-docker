@@ -1,7 +1,7 @@
 ## Inspired by https://bitpress.io/simple-approach-using-docker-with-php/
 
-FROM php:5.6-apache
-#FROM php:7.1.8-apache
+#FROM php:5.6-apache
+FROM php:7.1.8-apache
 MAINTAINER Ondřej Žižka
 
 COPY src/php /srv/app/public

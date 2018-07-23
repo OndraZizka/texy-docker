@@ -1,6 +1,6 @@
 <?php
 
-require_once("texy.min.php");  // knihovna Texy!
+require_once("texy.phar");
 
 /**
  * Basic formatting with defaults.

@@ -2,6 +2,13 @@
 
 Docker image for Texy! markup to XHTML converter service.
 
+What is Texy
+============
+
+Texy is a human-friendly markup language.
+This is a ready-to-run service converting Texy markup to XHTML.
+
+
 Usage
 =====
 
@@ -17,3 +24,11 @@ Build
 
 There are a few ways to Dockerize this, as I was experimenting which way to take.
 The way used corresponds to the tag part after version.
+
+Sources
+-------
+
+See https://github.com/OndraZizka/texy-docker
+
+
+<script type='text/javascript' src='https://www.openhub.net/p/jtexy/widgets/project_factoids_stats?format=js'></script>
