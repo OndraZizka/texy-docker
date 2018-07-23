@@ -8,12 +8,17 @@ Usage
 Run
 ---
 
-    docker run --rm -it -p 8022:80 texy-service:1.0.0-php-apache
+    docker pull ondrazizka/texy-service:latest
+    docker run --rm -it -p 8022:80 ondrazizka/texy-service:latest
+    
 
 Build
 -----
 
-    docker build --tag texy-service::1.0.0-php-apache --file src/dockerize-way2/Dockerfile .
+    git clone <this repo>
+    cd texy-docker/
+    docker build --tag texy-service:1.0.0-php-apache --file src/dockerize-way2/Dockerfile .
+    docker run --rm -it -p 8022:80 texy-service:1.0.0-php-apache
 
 There are a few ways to Dockerize this, as I was experimenting which way to take.
 The way used corresponds to the tag part after version.
