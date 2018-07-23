@@ -35,5 +35,6 @@ Sources
 
 See https://github.com/OndraZizka/texy-docker
 
-
-<script type='text/javascript' src='https://www.openhub.net/p/jtexy/widgets/project_factoids_stats?format=js'></script>
+<!--
+[![Project Stats](https://www.openhub.net/p/texy-docker/widgets/project_thin_badge.gif)](https://www.openhub.net/p/texy-docker)
+-->
