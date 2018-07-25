@@ -13,6 +13,8 @@ function PrevedDoXhtml($text) {
     //$texy->utf = true;
     //$texy->trustMode();
     $texy->headingModule->top = 3;
+    $texy->imageModule->root  = '';
+    $texy->imageModule->linkedRoot  = '';
     $texy->setOutputMode(Texy::XHTML5);
     $html = $texy->process($text);
     return $html;
