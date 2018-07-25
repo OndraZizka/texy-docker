@@ -10,12 +10,17 @@ require_once("texy.phar");
  */
 function PrevedDoXhtml($text) {
     $texy = new Texy();
+
     //$texy->utf = true;
     //$texy->trustMode();
     $texy->headingModule->top = 3;
+    $texy->headingModule->generateID = true;
+
     $texy->imageModule->root  = '';
     $texy->imageModule->linkedRoot  = '';
+
     $texy->setOutputMode(Texy::XHTML5);
+
     $html = $texy->process($text);
     return $html;
 }
