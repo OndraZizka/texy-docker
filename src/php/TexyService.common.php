@@ -13,7 +13,7 @@ function PrevedDoXhtml($text) {
 
     //$texy->utf = true;
     //$texy->trustMode();
-    $texy->headingModule->top = 3;
+    $texy->headingModule->top = 2;
     $texy->headingModule->generateID = true;
 
     $texy->imageModule->root  = '';
