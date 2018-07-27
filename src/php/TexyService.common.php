@@ -8,12 +8,12 @@ require_once("texy.phar");
  * input string text - Texy! markup
  * return string html - Resulting XHTML code
  */
-function PrevedDoXhtml($text) {
+function ConvertToHtml($markup, $options) {
     $texy = new Texy();
 
     //$texy->utf = true;
     //$texy->trustMode();
-    $texy->headingModule->top = 2;
+    $texy->headingModule->top = $options['topHeadingLevel'];
     $texy->headingModule->generateID = true;
 
     $texy->imageModule->root  = '';
@@ -21,25 +21,74 @@ function PrevedDoXhtml($text) {
 
     $texy->setOutputMode(Texy::XHTML5);
 
-    $html = $texy->process($text);
+    if ($options['noCodeInPre']) {
+        $texy->addHandler('block', array('removeCodeFromPre', 'blockHandler'));
+    }
+
+    $html = $texy->process($markup);
     return $html;
 }
 
-/**
- * Basic formatting with parameters.
- *
- * input string text - Texy! markup
- * input boolean utf – Should Texy! work in UTF mode?
- * input boolean trust – Should Texy! work in trusted or secure mode?
- * input integer headingLevel – highest heading level to use in resulting XHTML
- * return string html - Resulting XHTML code
- */
-function PrevedDoXhtmlR($text, $utf, $trust, $headingLevel) {
-    $texy = new Texy();
-    $texy->utf = $utf;
-    if($trust) $texy->trustMode();
-    else $texy->safeMode();
-    $texy->headingModule->top = $headingLevel;
-    $html = $texy->process($text);
-    return $html;
+
+
+class removeCodeFromPre
+{
+    /**
+     * @param TexyHandlerInvocation  handler invocation
+     * @param string  block type
+     * @param string  text to highlight
+     * @param string  language
+     * @param TexyModifier modifier
+     * @return TexyHtml
+     */
+    function blockHandler($invocation, $blocktype, $s, $lang, $modifier)
+    {
+        if ($blocktype !== 'block/code')
+            return $invocation->proceed();
+
+        //$tx = $this->texy;
+        $tx = $invocation->getTexy();
+        $s = Texy\Texy::outdent($s);
+        if ($s === '') {
+            return "\n";
+        }
+        $s = Texy\Texy::escapeHtml($s);
+        $s = $tx->protect($s, Texy\Texy::CONTENT_BLOCK);
+        $el = Texy\HtmlElement::el('pre');
+        $modifier->decorate($tx, $el);
+        //$c = $el->create('code', $s);
+        $el->setText($s);
+        $el->attrs['class'][] = "language-$lang";
+        return $el;
+    }
 }
+
+
+
+/** Fallback if getallheaders() wouldn't work. */
+function getRequestHeaders() {
+    $headers = array();
+    foreach($_SERVER as $key => $value) {
+        if (substr($key, 0, 5) <> 'HTTP_') {
+            continue;
+        }
+        $header = str_replace(' ', '-', ucwords(str_replace('_', ' ', strtolower(substr($key, 5)))));
+        $headers[$header] = $value;
+    }
+    return $headers;
+}
+
+/**
+ * Ivan recommends: Symfony\http-foundation (https://symfony.com/doc/current/components/http_foundation.html) or Nette\Http
+ */
+function getHttpHeader($nameToFind, $defaultValue = null) {
+    $nameToFind = trim($nameToFind);
+    /*foreach (getallheaders() as $name => $value) {
+        if ($name === $nameToFind)
+            return $value;
+    }
+    return $defaultValue;
+    */
+    return getallheaders()[$nameToFind] ?: $defaultValue;
+}
+
