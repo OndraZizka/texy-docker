@@ -1,4 +1,4 @@
-Speciální p?ípady
+SpeciÃ¡lnÃ­ pÅ™Ã­pady
 ==============
 
 .[myclass]
@@ -65,14 +65,14 @@ texyscript2 {{ texy (test) }}
 
 
 <pre>
-speciální 
+speciÃ¡lnÃ­ 
 test
 </pre>
 
 
 <pre>
 
-speciální 
+speciÃ¡lnÃ­ 
 test
 
 </pre>
@@ -82,9 +82,9 @@ emoticon :-)))
 
 obrazek [* obr.jpg *]:[* popup.php?img=obr-big.jpg *]
 
-[* obr.jpg .{alt:alternative; title:title text }*]:[* popup.php?img=obr-big.jpg *] *** N?jakı popisek pod obrázkem
+[* obr.jpg .{alt:alternative; title:title text }*]:[* popup.php?img=obr-big.jpg *] *** NÄ›jakÃ½ popisek pod obrÃ¡zkem
 
-absolutní obr [* http://www.texy.info/images/buttons/texy-powered.png *] test
+absolutnÃ­ obr [* http://www.texy.info/images/buttons/texy-powered.png *] test
 
 [* 0 *] nebo **0**
 
@@ -92,18 +92,18 @@ absolutní obr [* http://www.texy.info/images/buttons/texy-powered.png *] test
 
 Neexistujici &entita;
 
-Specialní &amp;image;
+SpecialnÃ­ &amp;image;
 
 Texy! is sexy!
 ==============
 
-[*texy-small.gif<] Texy! je konvertor ?istého textu do formátované podoby. Jeho nedílnou sou?ástí je soubor jednoduchıch pravidel, kterımi se konverze ?ídí.
+[*texy-small.gif<] Texy! je konvertor ÄistÃ©ho textu do formÃ¡tovanÃ© podoby. Jeho nedÃ­lnou souÄÃ¡stÃ­ je soubor jednoduchÃ½ch pravidel, kterÃ½mi se konverze Å™Ã­dÃ­.
 
-Texy! je jedním z **nejkomplexn?j¨ích** "formátova??". Umí zpracovávat obrázky, odkazy, seznamy, tabulky ale také CSS((Kaskádové styly)). 
+Texy! je jednÃ­m z **nejkomplexnÄ›jÅ¡Ã­ch** "formÃ¡tovaÄÅ¯". UmÃ­ zpracovÃ¡vat obrÃ¡zky, odkazy, seznamy, tabulky ale takÃ© CSS((KaskÃ¡dovÃ© styly)). 
 
-Systém také formátuje text v souladu s typografickımi pravidly. Zvlá¨tní pozornost je v?nována národním specifik?m. Texy! p?etahuje jednopísmenné p?edlo¸ky a spojky z konc? ?ádk? na následující ?ádek, rozd?luje p?íli¨ dlouhá slova podle slabik atd.
+SystÃ©m takÃ© formÃ¡tuje text v souladu s typografickÃ½mi pravidly. ZvlÃ¡Å¡tnÃ­ pozornost je vÄ›novÃ¡na nÃ¡rodnÃ­m specifikÅ¯m. Texy! pÅ™etahuje jednopÃ­smennÃ© pÅ™edloÅ¾ky a spojky z koncÅ¯ Å™Ã¡dkÅ¯ na nÃ¡sledujÃ­cÃ­ Å™Ã¡dek, rozdÄ›luje pÅ™Ã­liÅ¡ dlouhÃ¡ slova podle slabik atd.
 
-Systém je napsán pln? objektov? v PHP. Bez zásahu do zdrojového kódu je mo¸né nastavit celou ?adu parametr? a p?izp?sobit (resp. omezit) chování podle aktuálních pot?eb.
+SystÃ©m je napsÃ¡n plnÄ› objektovÄ› v PHP. Bez zÃ¡sahu do zdrojovÃ©ho kÃ³du je moÅ¾nÃ© nastavit celou Å™adu parametrÅ¯ a pÅ™izpÅ¯sobit (resp. omezit) chovÃ¡nÃ­ podle aktuÃ¡lnÃ­ch potÅ™eb.
 
 Copyright
 ---------
@@ -122,11 +122,11 @@ A Third Level Header
 A Fourth Level Header
 ---------------------
 
-#### Nejv?t¨í titulek
+#### NejvÄ›tÅ¡Ã­ titulek
 
-### st?ední titulek
+### stÅ™ednÃ­ titulek
 
-## malı titulek
+## malÃ½ titulek
 
 ---
 
@@ -134,23 +134,23 @@ Odstavce textu
 **************
 
 Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Curabitur turpis enim, placerat tincidunt, tincidunt ac, fringilla et, mauris. .(test){text-align:right}
- A následují ?ádky
- které Texy! odd?lí elementem `<br> &nbsp;`
+ A nÃ¡sledujÃ­ Å™Ã¡dky
+ kterÃ© Texy! oddÄ›lÃ­ elementem `<br> &nbsp;`
 
 Curabitur quam justo, hendrerit a, mattis ut, ultrices at, dui. In mollis. Ut pellentesque erat vehicula nunc. Ut ultricies. Nulla nunc velit, consequat vel, laoreet in, blandit et, eros. 
 
-**Odstavec zarovnanı *doprava.** Lorem* ipsum dolor sit amet, consectetuer adipiscing elit. Curabitur turpis enim, placerat tincidunt, tincidunt ac, fringilla et, mauris. .>
+**Odstavec zarovnanÃ½ *doprava.** Lorem* ipsum dolor sit amet, consectetuer adipiscing elit. Curabitur turpis enim, placerat tincidunt, tincidunt ac, fringilla et, mauris. .>
 
-**Odstavec psanı modrou "barvou.** Curabitur":link quam justo, hendrerit a, mattis ut, ultrices at, dui. In mollis. Ut pellentesque erat vehicula nunc. Ut ultricies. Nulla nunc velit, consequat vel, laoreet in, blandit et, eros. .{color:blue}
+**Odstavec psanÃ½ modrou "barvou.** Curabitur":link quam justo, hendrerit a, mattis ut, ultrices at, dui. In mollis. Ut pellentesque erat vehicula nunc. Ut ultricies. Nulla nunc velit, consequat vel, laoreet in, blandit et, eros. .{color:blue}
 
 --- 
 
 /--texysource
-Text mezi @notexy ..... a @ nebude Texy *formátovat* 
+Text mezi @notexy ..... a @ nebude Texy *formÃ¡tovat* 
   &nbsp; <br />
 \--
 
-Neformátovanı text
+NeformÃ¡tovanÃ½ text
 ******************
 
 /--code
@@ -165,19 +165,19 @@ Neformátovanı text
 
 ---
 
-Vypnutí Texy
+VypnutÃ­ Texy
 ************
 
 /--html
-Text mezi @notexy ..... a @ nebude Texy *formátovat* 
+Text mezi @notexy ..... a @ nebude Texy *formÃ¡tovat* 
   &nbsp; <br />
 \--
 
-s od?ádkováním
+s odÅ™Ã¡dkovÃ¡nÃ­m
 --------------
 
 /--text
-Text mezi @notexy ..... a @ nebude Texy *formátovat* 
+Text mezi @notexy ..... a @ nebude Texy *formÃ¡tovat* 
   &nbsp; <br />
 \--
 
@@ -186,12 +186,12 @@ Text mezi @notexy ..... a @ nebude Texy *formátovat*
 Citace
 ******
 
-> Myslím tudí¸ jsem 
+> MyslÃ­m tudÃ­Å¾ jsem 
 >:http://www.dgx.cz
 
 ---
 
-Horizontální ?ára
+HorizontÃ¡lnÃ­ ÄÃ¡ra
 *****************
 
 ---
@@ -199,60 +199,60 @@ Horizontální ?ára
 ***
 
 
-Obrázky
+ObrÃ¡zky
 =======
 
-P?íklad: 
+PÅ™Ã­klad: 
 [*texy.gif*]
   
-Zarovnání doleva nebo doprava
+ZarovnÃ¡nÃ­ doleva nebo doprava
 =============================
 
 [*texy-small.gif<] Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Curabitur turpis enim, placerat tincidunt, tincidunt ac, fringilla et, mauris.  
 
 [*texy-small.gif>] Curabitur quam justo, hendrerit a, mattis ut, ultrices at, dui. In mollis. Ut pellentesque erat vehicula nunc. Ut ultricies. Nulla nunc velit, consequat vel, laoreet in, blandit et, eros. 
 
-Aktivní obrázky
+AktivnÃ­ obrÃ¡zky
 ===============
 
-Obrázek, kterı se m?ní p?i p?ejetí my¨í. Obrázky se odd?lují znakem |
+ObrÃ¡zek, kterÃ½ se mÄ›nÃ­ pÅ™i pÅ™ejetÃ­ myÅ¡Ã­. ObrÃ¡zky se oddÄ›lujÃ­ znakem |
 [* texy.jpg | texy-over.jpg *]
 
 Odkazy
 ======
 
-Tento obrázek je odkaz [*texy-small.gif*]:http://www.dgx.cz 
+Tento obrÃ¡zek je odkaz [*texy-small.gif*]:http://www.dgx.cz 
 
-Po kliknutí na tento obrázek se objeví jeho v?t¨í verze [* texy-small.gif *]:[* texy-big.jpg *]
+Po kliknutÃ­ na tento obrÃ¡zek se objevÃ­ jeho vÄ›tÅ¡Ã­ verze [* texy-small.gif *]:[* texy-big.jpg *]
 
-Nebo jednodu¨eji [* texy.gif *]::
+Nebo jednoduÅ¡eji [* texy.gif *]::
 
 
-Obrázek s popiskou
+ObrÃ¡zek s popiskou
 ==================
 
-[* texy.gif <]:[home] *** popiska s **plnım** formátováním
+[* texy.gif <]:[home] *** popiska s **plnÃ½m** formÃ¡tovÃ¡nÃ­m
 
 --- 
 
-Modifikátory
+ModifikÃ¡tory
 ============
 
-Lze pou¸ít také pro definici alternativního textu
+Lze pouÅ¾Ã­t takÃ© pro definici alternativnÃ­ho textu
 
-[*texy-small.gif .(alternativní text)[class]*]
+[*texy-small.gif .(alternativnÃ­ text)[class]*]
 
 
-Formátovací p?íkazy
+FormÃ¡tovacÃ­ pÅ™Ã­kazy
 ===================
 
-- **tu?né písmo**
-- *kurzíva* nebo //kurzíva//
-- >>citovanı zdroj<<:zdroj
-- ^^horní index^^ 10m^^2^^
-- __spodní index__ 
-- ++vlo¸enı text++
-- --odstran?nı text--
+- **tuÄnÃ© pÃ­smo**
+- *kurzÃ­va* nebo //kurzÃ­va//
+- >>citovanÃ½ zdroj<<:zdroj
+- ^^hornÃ­ index^^ 10m^^2^^
+- __spodnÃ­ index__ 
+- ++vloÅ¾enÃ½ text++
+- --odstranÄ›nÃ½ text--
 
 - `.[php]`
 - `code`
@@ -262,33 +262,33 @@ Formátovací p?íkazy
 
 this is ''no**texy**'' code
 
-Spolu s formátovacími p?íkazy lze pou¸ít i modifikátory. Ty se zapisují p?ed uzavírací znak: **tu?né zelené písmo .{color:green}**
+Spolu s formÃ¡tovacÃ­mi pÅ™Ã­kazy lze pouÅ¾Ã­t i modifikÃ¡tory. Ty se zapisujÃ­ pÅ™ed uzavÃ­racÃ­ znak: **tuÄnÃ© zelenÃ© pÃ­smo .{color:green}**
 
-Citace mohou obsahovat i informaci o zdroji, nap?. >>Lorem Ipsum Dolores<<:www.lipsum.com
+Citace mohou obsahovat i informaci o zdroji, napÅ™. >>Lorem Ipsum Dolores<<:www.lipsum.com
 
 ---
 
-Jak vytvá?et odkazy se dozvíte na "této stránce":links
+Jak vytvÃ¡Å™et odkazy se dozvÃ­te na "tÃ©to strÃ¡nce":links
 
-Vypnutí Texy
+VypnutÃ­ Texy
 ============
 
-Text mezi hranatımi závorkami a obrácenımi uvozovkami <<< nebude Texy *formátovat*  >>>
+Text mezi hranatÃ½mi zÃ¡vorkami a obrÃ¡cenÃ½mi uvozovkami <<< nebude Texy *formÃ¡tovat*  >>>
 
 Odkazy
 ======
 
-Odkaz se vytvá?í ozna?ením textu do uvozovek následovanıch dvojte?kou a URL
+Odkaz se vytvÃ¡Å™Ã­ oznaÄenÃ­m textu do uvozovek nÃ¡sledovanÃ½ch dvojteÄkou a URL
 
-P?íklady: 
-- U¸ jste ?etli "La Trine":[la trine]?
-- automatickı odkaz [la trine]
-- Napi¨te na "email":dave@example.com
-- podívejte se na tento "obrázek":[*texy-big.jpg*]
-- lze zapsat i pomocí reference [obrazek]
+PÅ™Ã­klady: 
+- UÅ¾ jste Äetli "La Trine":[la trine]?
+- automatickÃ½ odkaz [la trine]
+- NapiÅ¡te na "email":dave@example.com
+- podÃ­vejte se na tento "obrÃ¡zek":[*texy-big.jpg*]
+- lze zapsat i pomocÃ­ reference [obrazek]
 - quick link:[www.dgx.cz]
 
-A nakonec klikací obrázek: 
+A nakonec klikacÃ­ obrÃ¡zek: 
 [*texy-small.gif*]:[*texy-big.jpg*]
 
 
@@ -296,7 +296,7 @@ A nakonec klikací obrázek:
 [dave]: dave@example.com text odkazu
 [obrazek]: [*texy-big.jpg*] 
 
-Odrá¸kovı seznam
+OdrÃ¡Å¾kovÃ½ seznam
 ================
 
 *   Red
@@ -317,7 +317,7 @@ Odrá¸kovı seznam
 -   Blue
 
 
-?íslovanı seznam
+ÄŒÃ­slovanÃ½ seznam
 ================
 
 3)  Bird
@@ -337,7 +337,7 @@ V)  McHale
 VI) Parish
 
 
-Víceúrov?ovı seznam
+VÃ­ceÃºrovÅˆovÃ½ seznam
 ===================
 
 a)  Bird
@@ -356,174 +356,174 @@ c)  Parish
 
 ---
 
-Vysv?tlující seznam
+VysvÄ›tlujÃ­cÃ­ seznam
 ===================
 
 .{color:red}
 triangl:   .{color:blue}
-    - trojúhelník      .{color:green}
-    - nelad?nı bicí hudební nástroj
-    - tringula?ní v?¸
+    - trojÃºhelnÃ­k      .{color:green}
+    - neladÄ›nÃ½ bicÃ­ hudebnÃ­ nÃ¡stroj
+    - tringulaÄnÃ­ vÄ›Å¾
  
-Koncert Divokı Bill:
-    - termín: 9. 12. 2004
-    - místo: Hala Vodová, Brno
-    - Cena: 260,- K?
+Koncert DivokÃ½ Bill:
+    - termÃ­n: 9. 12. 2004
+    - mÃ­sto: Hala VodovÃ¡, Brno
+    - Cena: 260,- KÄ
 
 
-Odd?lenı seznam:
-    * polo¸ka
+OddÄ›lenÃ½ seznam:
+    * poloÅ¾ka
       text
       
       text
-    * polo¸ka
+    * poloÅ¾ka
 
 
 
-Formátovací modifikátory
+FormÃ¡tovacÃ­ modifikÃ¡tory
 ========================
 
-Lze pou¸ít tyto druhy modifikátor?:
-- (titulek) popisné, p?idají objektu titulek
-- [class1 class2 #id] ur?ující t?ídu a ID
-- {class:blue} pro p?ímı zápis stylu
-- horizontální zarovnání:
+Lze pouÅ¾Ã­t tyto druhy modifikÃ¡torÅ¯:
+- (titulek) popisnÃ©, pÅ™idajÃ­ objektu titulek
+- [class1 class2 #id] urÄujÃ­cÃ­ tÅ™Ã­du a ID
+- {class:blue} pro pÅ™Ã­mÃ½ zÃ¡pis stylu
+- horizontÃ¡lnÃ­ zarovnÃ¡nÃ­:
   - doleva <
   - doprava >
-  - vycentrovanı <>
+  - vycentrovanÃ½ <>
   - do bloku =
 
-- vertikální zarovnání: (jen u tabulek)
+- vertikÃ¡lnÃ­ zarovnÃ¡nÃ­: (jen u tabulek)
   - nahoru ^
-  - na st?ed - 
-  - dol? _
+  - na stÅ™ed - 
+  - dolÅ¯ _
 
 ---
 
-Pou¸ití
+PouÅ¾itÃ­
 =======
 
-Pou¸ívá se postfixová syntaxe, modifikátory se pí¨í na konec "bloku":block nebo fráze. P?ed modifikátorem **musí bıt te?ka**.
+PouÅ¾Ã­vÃ¡ se postfixovÃ¡ syntaxe, modifikÃ¡tory se pÃ­Å¡Ã­ na konec "bloku":block nebo frÃ¡ze. PÅ™ed modifikÃ¡torem **musÃ­ bÃ½t teÄka**.
 
-### malı centrovanı titulek .=
-## zelenı titulek .{color:green}
+### malÃ½ centrovanÃ½ titulek .=
+## zelenÃ½ titulek .{color:green}
 
-?ást textu lze ovlivnit modifikátorem tak, ¸e ji uzav?eme do uvozovek a modifikátor vlo¸íme t?sn? p?ed pravou uvozovku: "Text ozna?enı uvozovkami .(titulek)[about]"
+ÄŒÃ¡st textu lze ovlivnit modifikÃ¡torem tak, Å¾e ji uzavÅ™eme do uvozovek a modifikÃ¡tor vloÅ¾Ã­me tÄ›snÄ› pÅ™ed pravou uvozovku: "Text oznaÄenÃ½ uvozovkami .(titulek)[about]"
 
-V "seznamech":lists modifikátor ovliv?uje p?íslu¨nou polo¸ku. Chcete-li pou¸ít modifikátor pro celı seznam, vlo¸te jej t?sn? p?ed n?j:
+V "seznamech":lists modifikÃ¡tor ovlivÅˆuje pÅ™Ã­sluÅ¡nou poloÅ¾ku. Chcete-li pouÅ¾Ã­t modifikÃ¡tor pro celÃ½ seznam, vloÅ¾te jej tÄ›snÄ› pÅ™ed nÄ›j:
 
 .{color:blue}  
-- první polo¸ka bude zelená .{color:green}
-- dal¨í jsou modré
-- t?etí polo¸ka s titulkem .(titulek)
+- prvnÃ­ poloÅ¾ka bude zelenÃ¡ .{color:green}
+- dalÅ¡Ã­ jsou modrÃ©
+- tÅ™etÃ­ poloÅ¾ka s titulkem .(titulek)
 
-U "tabulek":tables, stejn? jako u seznam?, m?¸ete pou¸ít zápisu p?ed tabulkou pro ovlivn?ní celé tabulky. 
+U "tabulek":tables, stejnÄ› jako u seznamÅ¯, mÅ¯Å¾ete pouÅ¾Ã­t zÃ¡pisu pÅ™ed tabulkou pro ovlivnÄ›nÃ­ celÃ© tabulky. 
 
-Automatické úpravy textu
+AutomatickÃ© Ãºpravy textu
 ========================
 
-- rozd?lení velmi dlouhıch slov podle ?eskıch pravidel. P?íklad: nejneobhospoda?ovávateln?j¨ími
-- klikatelné adresy www.dgx.cz, dave@dgx.cz  xxx@x.cz
-- "?eské" 'typografické' uvozovky
-- poml?ka vs. spojovník: 10-15 vs. ?esko-slovenskı  
-- typografickı k?í¸ek u rozm?r? 10 x 20 
-- ned?litelné mezery u telefonních ?ísel +420 776 552 046
-- vkládání nezalomitelnıch mezer za jednopísmenné p?edlo¸ky
-- zkratky s vysv?tlivkou PGP((Pretty Good Privacy))
-- náhrady(TM) nebo(R) za p?íslu¨né (C)entity (EUR)
-- zachování entit &amp;
-- a dal¨í...
+- rozdÄ›lenÃ­ velmi dlouhÃ½ch slov podle ÄeskÃ½ch pravidel. PÅ™Ã­klad: nejneobhospodaÅ™ovÃ¡vatelnÄ›jÅ¡Ã­mi
+- klikatelnÃ© adresy www.dgx.cz, dave@dgx.cz  xxx@x.cz
+- "ÄeskÃ©" 'typografickÃ©' uvozovky
+- pomlÄka vs. spojovnÃ­k: 10-15 vs. Äesko-slovenskÃ½  
+- typografickÃ½ kÅ™Ã­Å¾ek u rozmÄ›rÅ¯ 10 x 20 
+- nedÄ›litelnÃ© mezery u telefonnÃ­ch ÄÃ­sel +420 776 552 046
+- vklÃ¡dÃ¡nÃ­ nezalomitelnÃ½ch mezer za jednopÃ­smennÃ© pÅ™edloÅ¾ky
+- zkratky s vysvÄ›tlivkou PGP((Pretty Good Privacy))
+- nÃ¡hrady(TM) nebo(R) za pÅ™Ã­sluÅ¡nÃ© (C)entity (EUR)
+- zachovÃ¡nÃ­ entit &amp;
+- a dalÅ¡Ã­...
 
 a --> b <--> c <-- d ===> e
 
-Jednoduchá tabulka
+JednoduchÃ¡ tabulka
 ==================
 
-| první sloupec | druhı | t?etí
+| prvnÃ­ sloupec | druhÃ½ | tÅ™etÃ­
 | xx            | yy    | zz
 
 
-Tabulka s hlavi?kou
+Tabulka s hlaviÄkou
 ===================
 
 |== tabulka ==|
 |-----------------------------
-| jméno | p?íjmení | v?k
+| jmÃ©no | pÅ™Ã­jmenÃ­ | vÄ›k
 |----------------------------
-| Jan | Novák | 33
+| Jan | NovÃ¡k | 33
 | Petr | Svoboda | 24
 
 |== tabulka ==|
-| jméno | p?íjmení | v?k
+| jmÃ©no | pÅ™Ã­jmenÃ­ | vÄ›k
 |----------------------------
-| Jan | Novák | 33
+| Jan | NovÃ¡k | 33
 | Petr | Svoboda | 24
 
-| jméno | p?íjmení | v?k
+| jmÃ©no | pÅ™Ã­jmenÃ­ | vÄ›k
 |----------------------------
-| Jan | Novák | 33
+| Jan | NovÃ¡k | 33
 | Petr | Svoboda | 24
 
-| jméno | p?íjmení | v?k
-| Jan | Novák | 33
+| jmÃ©no | pÅ™Ã­jmenÃ­ | vÄ›k
+| Jan | NovÃ¡k | 33
 |----------------------------
 | Petr | Svoboda | 24
 
 
 |-----------------------------
-| jméno | p?íjmení | v?k
+| jmÃ©no | pÅ™Ã­jmenÃ­ | vÄ›k
 |----------------------------
 
-Libovolné pole lze ozna?it jako hlavi?ku u¸itím znaku * ihned po znaku |
+LibovolnÃ© pole lze oznaÄit jako hlaviÄku uÅ¾itÃ­m znaku * ihned po znaku |
 
-|* Jméno | Ji?í
-|* P?íjmení | Memphiskapoleus
-|* V?k | 74
+|* JmÃ©no | JiÅ™Ã­
+|* PÅ™Ã­jmenÃ­ | Memphiskapoleus
+|* VÄ›k | 74
 
 ---
    
-Formátování pomocí modifikátor?
+FormÃ¡tovÃ¡nÃ­ pomocÃ­ modifikÃ¡torÅ¯
 ===============================
 
 
 .{text-align:center}
 |-----
-|* p?íjmení | .< v?k k 1.1.2004 .>| .{font-style:italic}
+|* pÅ™Ã­jmenÃ­ | .< vÄ›k k 1.1.2004 .>| .{font-style:italic}
 |-----
-| Novák .{color: blue}| 33
+| NovÃ¡k .{color: blue}| 33
 | Svoboda | 24
 
-Modifikátory:
-- tabulky - je¨t? p?ed tabulkou
-- ?ádku - je umíst?nı na za?átku ?ádku 
-- sloupce - je umíst?nı hned po zna?ce |
-- polí?ka - je umíst?nı p?ed následující zna?kou |
+ModifikÃ¡tory:
+- tabulky - jeÅ¡tÄ› pÅ™ed tabulkou
+- Å™Ã¡dku - je umÃ­stÄ›nÃ½ na zaÄÃ¡tku Å™Ã¡dku 
+- sloupce - je umÃ­stÄ›nÃ½ hned po znaÄce |
+- polÃ­Äka - je umÃ­stÄ›nÃ½ pÅ™ed nÃ¡sledujÃ­cÃ­ znaÄkou |
 
-Dal¨í informace o modifikátorech najdete v sekci "modifikátory":modifiers
+DalÅ¡Ã­ informace o modifikÃ¡torech najdete v sekci "modifikÃ¡tory":modifiers
 
 [* 1/galaxy-quest.jpg >]
 
-Kdy¸ mi pond?lní ráno zpest?ila snímkem "Truman Show":[truman], 
-byl jsem p?íjemn? p?ekvapen. 
-P?eci jen, v 9.30 bych na 
- tele-tele-novele-TV n?co 
- takového ne?ekal. 
-Dob?e utajenı film tıdne, ?íkal jsem si.
+KdyÅ¾ mi pondÄ›lnÃ­ rÃ¡no zpestÅ™ila snÃ­mkem "Truman Show":[truman], 
+byl jsem pÅ™Ã­jemnÄ› pÅ™ekvapen. 
+PÅ™eci jen, v 9.30 bych na 
+ tele-tele-novele-TV nÄ›co 
+ takovÃ©ho neÄekal. 
+DobÅ™e utajenÃ½ film tÃ½dne, Å™Ã­kal jsem si.
 
-A ejhle! Zítra ráno o p?l desáté vytahují dal¨í eso z rukávu: "Galaxy Quest":[galaxy]. Jako by se sna¸ili ?íct: "Sorry za ten Titanic" :-)
+A ejhle! ZÃ­tra rÃ¡no o pÅ¯l desÃ¡tÃ© vytahujÃ­ dalÅ¡Ã­ eso z rukÃ¡vu: "Galaxy Quest":[galaxy]. Jako by se snaÅ¾ili Å™Ã­ct: "Sorry za ten Titanic" :-)
 
 <blockquote cite="http://spac.blog.sme.sk/c/1050/Na-konci-s-dychom.html"><p>... ... ...</p>
-<p><a href="http://spac.blog.sme.sk/c/1050/Na-konci-s-dychom.html">Na konci s dychom</a>, <a href="http://spac.blog.sme.sk/">Peter Spá?</a></p></blockquote>
-<p class="xx">V?era som kamo¨ovi spomínal, ¸e komentova? Smer mi nestojí za námahu, ale toto som musel blognú?.</p>
+<p><a href="http://spac.blog.sme.sk/c/1050/Na-konci-s-dychom.html">Na konci s dychom</a>, <a href="http://spac.blog.sme.sk/">Peter SpÃ¡Ä</a></p></blockquote>
+<p class="xx">VÄera som kamoÅ¡ovi spomÃ­nal, Å¾e komentovaÅ¥ Smer mi nestojÃ­ za nÃ¡mahu, ale toto som musel blognÃºÅ¥.</p>
 
-Demonstace schopnosti vlo¸it HTML kód
-- je mo¸né programov? blokovat ka¸dı element
-- je mo¸né blokovat i jednotlivé atributy
-- vıslednı kód je XHTML validní (v¨imn?te si chyb?jících uvozovek u atribut? ve zna?ce form)
+Demonstace schopnosti vloÅ¾it HTML kÃ³d
+- je moÅ¾nÃ© programovÄ› blokovat kaÅ¾dÃ½ element
+- je moÅ¾nÃ© blokovat i jednotlivÃ© atributy
+- vÃ½slednÃ½ kÃ³d je XHTML validnÃ­ (vÅ¡imnÄ›te si chybÄ›jÃ­cÃ­ch uvozovek u atributÅ¯ ve znaÄce form)
 
 <form method=post action="zpravy.php" id=blabla> 
- <FIELDSET><legend>Kontaktní formulá?</legend> 
-  <p><label for="jmeno">jméno:</label> <input size="25" name="jmeno" id="jmeno" type="text" onfocus="if(this.value=='jméno')this.value=''" value="jméno" /></p> 
+ <FIELDSET><legend>KontaktnÃ­ formulÃ¡Å™</legend> 
+  <p><label for="jmeno">jmÃ©no:</label> <input size="25" name="jmeno" id="jmeno" type="text" onfocus="if(this.value=='jmÃ©no')this.value=''" value="jmÃ©no" /></p> 
   <p><label for="mail">e-mail:</label> <input size="25" name=xmail id="mail" type="text" onfocus="if(this.value=='e-mail')this.value=''" value="e-mail" /></p> 
   <p><label>text: </label><textarea name="text" id="text" rows="1" cols="1" style="vertical-align:top" onfocus="if(this.value=='text')this.value=''">text</textarea></p> 
   <p><input type="submit" name="odeslat" value="Odeslat"/></p> 
@@ -538,20 +538,20 @@ id="kontform" onsubmit="return checkme()"> konec </form>
 [galaxy]: http://www.imdb.com/title/tt0177789/
 
 
-funkce strlen:[php], "objektov? orientované programování":[google] a "Niklaus Wirth":[wikipedia]
+funkce strlen:[php], "objektovÄ› orientovanÃ© programovÃ¡nÃ­":[google] a "Niklaus Wirth":[wikipedia]
 
 [google]: http://www.google.com/search?q=%s
 [php]: http://php.net/%s
 [wikipedia]: http://en.wikipedia.org/wiki/Special:Search?search=%s
 
-První <!-- komentá? -->  <!--[ komentá?2 ]-->
+PrvnÃ­ <!-- komentÃ¡Å™ -->  <!--[ komentÃ¡Å™2 ]-->
 
 /--html
 <p>
-<!-- komentá? -->
+<!-- komentÃ¡Å™ -->
 \--
 
-¦litr-Suchı ¦litr--Suchı
+Å litr-SuchÃ½ Å litr--SuchÃ½
 
 123-456
 
@@ -561,13 +561,13 @@ První <!-- komentá? -->  <!--[ komentá?2 ]-->
 
 7869-- 4646
 
-¦litr-- Suchı
+Å litr-- SuchÃ½
 
-¦litr --Suchı
+Å litr --SuchÃ½
 
-¦litr -- Suchı
+Å litr -- SuchÃ½
 
-¦litr - Suchı
+Å litr - SuchÃ½
 
 
 321-654-987
