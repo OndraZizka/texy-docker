@@ -15,7 +15,11 @@ Usage
 Run
 ---
 
-    docker run --rm -it -p 8022:80 ondrazizka/texy-service:latest
+    docker pull ondrazizka/texy-service:latest
+    docker run --rm -p 8022:80 ondrazizka/texy-service:latest
+
+Don't run with `-it` or Apache will stop now and then with:
+> [mpm_prefork:notice] [pid 1] AH00170: caught SIGWINCH, shutting down gracefully
 
 
 Build

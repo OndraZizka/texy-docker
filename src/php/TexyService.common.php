@@ -58,7 +58,7 @@ class removeCodeFromPre
         $modifier->decorate($tx, $el);
         //$c = $el->create('code', $s);
         $el->setText($s);
-        $el->attrs['class'][] = "language-$lang";
+        $el->attrs['class'][] = "$lang";
         return $el;
     }
 }
