@@ -46,6 +46,9 @@ class removeCodeFromPre
         if ($blocktype !== 'block/code')
             return $invocation->proceed();
 
+        if (empty(trim($lang)))
+            $lang = "text";
+
         //$tx = $this->texy;
         $tx = $invocation->getTexy();
         $s = Texy\Texy::outdent($s);
@@ -56,8 +59,11 @@ class removeCodeFromPre
         $s = $tx->protect($s, Texy\Texy::CONTENT_BLOCK);
         $el = Texy\HtmlElement::el('pre');
         $modifier->decorate($tx, $el);
+        $el->attrs['class'][] = "lang-$lang";
         //$c = $el->create('code', $s);
+        // SyntaxHighlighter needs <pre class="brush: java"> . Not configurable AFAIK.
         $el->setText($s);
+        $el->attrs['class'][] = "brush:";
         $el->attrs['class'][] = "$lang";
         return $el;
     }
